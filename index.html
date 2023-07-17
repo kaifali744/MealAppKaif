@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Meal App</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
-  <link rel="stylesheet" href="style.css">
 
+<head>
+    <title>Meal App</title>
+    <!-- Css Code link for external css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="container">
-    <h1>Meal App</h1>
-    <div class="form-group">
-      <input type="text" id="search-input" class="form-control" placeholder="Search for meals">
-      <button id="search-btn" class="btn btn-primary mt-2">Search</button>
+    <div class="container">
+        <!-- Heading for the Meal App -->
+        <h1>Meal App</h1>
+
+        <!-- Form group for the search input and button -->
+        <div class="form-group">
+            <input type="text" id="search-input" class="form-control" placeholder="Search for meals">
+            <button id="search-btn" class="btn btn-primary mt-2">Search</button>
+        </div>
+
+        <!-- Container for the meal list -->
+        <div id="meal-list" class="row"></div>
     </div>
-    <div id="meal-list" class="row"></div>
-  </div>
-  
-  <script src="app.js"></script>
+    <!-- Link for external javascript file -->
+    <script src="app.js"></script>
 </body>
+
 </html>

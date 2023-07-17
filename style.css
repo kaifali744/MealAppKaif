@@ -2,66 +2,67 @@
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(160, 223, 160);
-  }
-  
-  /* Create a container to hold the app elements */
-  .container {
+}
+
+/* Create a container to hold the app elements */
+.container {
     margin-top: 50px;
-  }
-  
-  /* Style the heading */
-  h1 {
-    color: #2e2828;
+}
+
+/* Style the heading */
+h1 {
+    color: #291d1d;
+    font-size: 60px;
     text-align: center;
-  }
-  
-  /* Add margin to the form group for spacing */
-  .form-group {
+}
+
+/* Add margin to the form group for spacing */
+.form-group {
     margin-bottom: 20px;
-  }
-  
-  /* Set the width of the search input */
-  #search-input {
+}
+
+/* Set the width of the search input */
+#search-input {
     width: 70%;
-  }
-  
-  /* Set the width of the search button */
-  #search-btn {
+}
+
+/* Set the width of the search button */
+#search-btn {
     width: 20%;
-    background-color:green;
-  }
-  
-  /* Display the meal list as a flex container with wrap */
-  #meal-list {
+    background-color: green;
+}
+
+/* Display the meal list as a flex container with wrap */
+#meal-list {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  /* Style the meal card */
-  .card {
+}
+
+/* Style the meal card */
+.card {
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
-  }
-  
-  /* Style the meal image */
-  .card-img-top {
+}
+
+/* Style the meal image */
+.card-img-top {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
-  }
-  
-  /* Style the meal title */
-  .card-title {
+}
+
+/* Style the meal title */
+.card-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 0;
     text-align: center;
-  }
-  
-  /* Style the card for shadow on hover*/
-  .card:hover {
+}
+
+/* Style the card for shadow on hover*/
+.card:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
+}
